@@ -1,5 +1,8 @@
 {
-    "presets": [ 
+    "presets": [
         ["preact-cli/babel", { "modules": "commonjs" }]
+    ],
+    "plugins": [
+        "emotion"
     ]
 }
